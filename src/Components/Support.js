@@ -1,5 +1,5 @@
 import React from 'react'
-import { PhoneIcon, ArrowSmallRightIcon, CpuChipIcon } from '@heroicons/react/24/outline'
+import { PhoneIcon, ArrowSmallRightIcon, CpuChipIcon, ComputerDesktopIcon } from '@heroicons/react/24/outline'
 import supportImg from "../assests/support.jpg"
 
 const Support = () => {
@@ -27,7 +27,7 @@ const Support = () => {
 				</div>
 				  <div className='bg-white rounded-xl shadow-2xl'>
 					  <div className='p-8'>
-						  <PhoneIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
+						  <ComputerDesktopIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
 						  <h3 className='font-bold text-2xl my-6'>Technical Support</h3>
 						  <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
 						</div>
