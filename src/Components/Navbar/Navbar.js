@@ -9,11 +9,6 @@ export const Navbar = () => {
 
 	const NavItems = ["About", "Support", "Platform", "Pricing"]
 
-	// useEffect(() => {
-	// 	setTimeout(() => {
-	// 		setIsLoggedIn(true)
-	// 	}, 500);
-	// }, [])
 
 	const handleDropDown = () => {
 		setDropDown(!dropDown)
@@ -32,7 +27,7 @@ export const Navbar = () => {
 		  </div>
 		  <div className='px-2 flex justify-between items-center w-full h-full mr-4'>
 			  <div className='flex items-center'>
-				  <h1 className='hover:animate-pulse text-3xl font-bold mr-4 sm:text-4xl'>VMwares</h1>
+				  <h1 style={{fontFamily: "'Pangolin', cursive"}} className='hover:animate-pulse text-3xl font-bold mr-4 sm:text-4xl text-gray-500'>CloudHive</h1>
 				  <ul className='hidden lg:flex content-center'>
 					  <li className='hover:text-indigo-500 cursor-pointer transition duration-500'><Link to='home' smooth={true}>Home</Link></li>
 					  <li className='hover:text-indigo-500 cursor-pointer transition duration-500'><Link to='about' smooth={true} offset={-100} duration={500}>About</Link></li>

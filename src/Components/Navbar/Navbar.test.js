@@ -10,7 +10,7 @@ describe("Navbar", () => {
 		expect(screen.getByRole("list")).toBeInTheDocument();
 
 		const pageHeading = screen.getByRole("heading", {
-			name: "VMwares",
+			name: "CloudHive",
 			level: 1
 		});
 		expect(pageHeading).toBeInTheDocument()

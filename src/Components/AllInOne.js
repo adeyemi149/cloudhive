@@ -1,12 +1,20 @@
 import React from 'react'
-import {CheckIcon} from '@heroicons/react/24/solid'
+import {useEffect} from 'react'
+import { CheckIcon } from '@heroicons/react/24/solid'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function Allinone() {
+	useEffect(() => {
+		Aos.init({duration: 1400});
+	}, [])
   return (
 	<div name="platforms" className='w-full my-40'>
 		<div className='max-w-[1240px] mx-auto px-2'>
-			  <h2 className='text-5xl font-bold text-center'>All-In-One</h2>
-			  <p className='text-2xl py-8 text-gray-500 text-center'>Est tempor minim voluptate voluptate laboris. Esse enim adipisicing amet irure non cupidatat ut incididunt. Voluptate nisi est ad commodo cupidatat Lorem aute ipsum ex do commodo. Officia velit ad elit nulla laboris est officia officia.</p>
+			  <div data-aos = "zoom-in">
+				<h2 className='text-5xl font-bold text-center'>All-In-One</h2>
+				<p className='text-2xl py-8 text-gray-500 text-center'>Est tempor minim voluptate voluptate laboris. Esse enim adipisicing amet irure non cupidatat ut incididunt. Voluptate nisi est ad commodo cupidatat Lorem aute ipsum ex do commodo. Officia velit ad elit nulla laboris est officia officia.</p>
+			  </div>
 			  
 			  <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
 				  
