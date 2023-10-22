@@ -14,8 +14,8 @@ const Pricing = () => {
 		  
 		  <div className='max-w-[1240px] mx-auto py-12'>
 			  <div className='text-center py-8 text-slate-300' data-aos = "zoom-out-up">
-				  <h2 className='text-3xl uppercase'>Pricing</h2>
-				  <h3 className='text-5xl font-bold text-white py-8'>The right price for your research</h3>
+				  <h1 className='text-3xl uppercase'>Pricing</h1>
+				  <h2 className='text-5xl font-bold text-white py-8'>The right price for your research</h2>
 				  <p className='text-3xl'>Ea do esse pariatur mollit magna culpa sunt tempor consequat ullamco consequat exercitation. Minim laborum nulla veniam officia officia nisi minim. Pariatur velit enim sunt quis Lorem labore pariatur ullamco enim do nostrud. Excepteur exercitation ex sit deserunt esse pariatur officia labore proident consectetur. </p>
 			  </div>
 

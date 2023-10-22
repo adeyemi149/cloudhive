@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react'
-import bgImg from "../../assests/cyber-bg.png"
-import App from '../../App.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import React, { useEffect } from 'react'
+import bgImg from "../../assests/cyber-bg.png"
 
 
 const Hero = () => {
@@ -20,7 +19,7 @@ const Hero = () => {
 					<button className='px-6 py-3 bg-indigo-500 rounded-lg below:w-full sm:w-[60%] my-4 text-white'>Get Started</button>
 				</div>
 				<div className='flex justify-center below:pb-2'>
-					<img data-aos="fade-left" className='w-full' src={bgImg} alt="/" />
+					<img data-aos="fade-left" className='w-full' src={bgImg} alt="Computer" />
 				</div>
 			</div>
 			<div className="custom-shape-divider-bottom-1685185551">
